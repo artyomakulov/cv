@@ -1,0 +1,73 @@
+@import url("../../ulits/colors.css");
+
+.container {
+  height: 720px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_name {
+  font-size: 44px;
+  font-weight: 700;
+  color: var(--orange);
+  margin-bottom: 20px;
+}
+
+.title_pos {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 20px;
+}
+
+.title_text {
+  width: 540px;
+  font-size: 16px;
+  color: var(--white);
+  line-height: 30px;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 565px;
+  background-image: url("../../ulits/images/background.svg");
+  z-index: 1;
+}
+
+.photocontainer {
+  position: absolute;
+  width: 350px;
+}
+
+.photo {
+  display: block;
+  position: relative;
+  top: 95px;
+  right: 35px;
+  width: 130%;
+  clip-path: path(
+    "M75.6953 17.0294C164.138 -28.8236 203.578 28.1712 282.459 113.021C361.339 197.87 401.975 203.87 352.973 306.718C303.971 409.565 39.8398 379.568 15.5384 294.29C-8.76304 209.012 -12.7472 62.8824 75.6953 17.0294Z"
+  );
+}
+
+.spot1 {
+  position: absolute;
+  left: -50px;
+  top: 120px;
+}
+.spot2 {
+  position: absolute;
+  left: 0;
+  top: 80px;
+}

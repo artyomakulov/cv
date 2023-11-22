@@ -1,0 +1,20 @@
+@import url("../../ulits/colors.css");
+
+.navigation {
+  height: 80px;
+  background-color: var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+.navigation_item {
+  /* font-family: "Arvo", serif; */
+  color: var(--white);
+}
+
+.navigation_item:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
