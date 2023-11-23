@@ -2,7 +2,7 @@
 
 .container {
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .title {
@@ -35,12 +35,24 @@
   align-items: center;
   flex-direction: column;
   fill: var(--white);
+  transition: fill 0.3s ease;
   cursor: pointer;
 }
 
-.item_container:hover {
-  fill: var(--orange);
-  color: var(--orange);
+.item_container.html:hover {
+  fill: #fc490b;
+}
+.item_container.css:hover {
+  fill: #2196f4;
+}
+.item_container.js:hover {
+  fill: #ffdf00;
+}
+.item_container.scss:hover {
+  fill: #f25234;
+}
+.item_container.git:hover {
+  fill: #f25234;
 }
 
 .text {

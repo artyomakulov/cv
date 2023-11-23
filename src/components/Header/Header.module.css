@@ -13,6 +13,7 @@
 
 .navigation_item {
   color: var(--white);
+  transition: fill 0.3s ease;
 }
 
 .navigation_item:hover {
