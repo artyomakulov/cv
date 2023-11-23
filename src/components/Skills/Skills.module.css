@@ -1,0 +1,49 @@
+@import url("../../ulits/colors.css");
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.title {
+  color: var(--orange);
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.skill_block {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list_item {
+  margin: 30px;
+}
+
+.item_container {
+  width: 200px;
+  height: 300px;
+  background-color: var(--grey);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  fill: var(--white);
+  cursor: pointer;
+}
+
+.item_container:hover {
+  fill: var(--orange);
+  color: var(--orange);
+}
+
+.text {
+  color: var(--white);
+  margin-top: 20px;
+}

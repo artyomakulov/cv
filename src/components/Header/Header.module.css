@@ -1,16 +1,17 @@
 @import url("../../ulits/colors.css");
 
 .navigation {
+  margin: 0 550px;
   height: 80px;
   background-color: var(--background);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   text-decoration: none;
+  font-weight: 700;
 }
 
 .navigation_item {
-  /* font-family: "Arvo", serif; */
   color: var(--white);
 }
 
