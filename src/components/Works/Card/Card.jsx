@@ -11,10 +11,17 @@ const Card = ({ work }) => {
         <p className={css.card_role}>{work.role}</p>
         <p className={css.card_disc}>{work.discription}</p>
         <a href={work.link}>
-          <button className={css.button}>See more</button>
+          <button className={css.button}>Open project</button>
         </a>
       </div>
-      <img className={css.img} src={work.image} alt={work.title} width={300} />
+      <div className={css.image_block}>
+        <img
+          className={css.img}
+          src={work.image}
+          alt={work.title}
+          width={200}
+        />
+      </div>
     </div>
   );
 };
