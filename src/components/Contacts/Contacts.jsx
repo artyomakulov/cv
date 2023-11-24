@@ -1,5 +1,10 @@
 import React from "react";
 import css from "./Contacts.module.css";
+import { ReactComponent as Email } from "../../ulits/images/contacts/email.svg";
+import { ReactComponent as Phone } from "../../ulits/images/contacts/phone.svg";
+import { ReactComponent as Telegram } from "../../ulits/images/contacts/telegram.svg";
+import { ReactComponent as Git } from "../../ulits/images/contacts/github.svg";
+import { ReactComponent as Linkedin } from "../../ulits/images/contacts/linkedin.svg";
 
 const Contacts = () => {
   return (
@@ -8,63 +13,41 @@ const Contacts = () => {
       <div className={css.contacts_block}>
         <div className={css.contacts_item}>
           <a href="mailto:artyomakulov@gmail.com" className={css.contacts_text}>
-            <svg
-              className={css.image}
-              viewBox="0 0 50 50"
-              width="48px"
-              height="48px"
-            >
-              <path d="M 14 4 C 8.4886661 4 4 8.4886661 4 14 L 4 36 C 4 41.511334 8.4886661 46 14 46 L 36 46 C 41.511334 46 46 41.511334 46 36 L 46 14 C 46 8.4886661 41.511334 4 36 4 L 14 4 z M 13 16 L 37 16 C 37.18 16 37.349766 16.020312 37.509766 16.070312 L 27.679688 25.890625 C 26.199688 27.370625 23.790547 27.370625 22.310547 25.890625 L 12.490234 16.070312 C 12.650234 16.020312 12.82 16 13 16 z M 11.070312 17.490234 L 18.589844 25 L 11.070312 32.509766 C 11.020312 32.349766 11 32.18 11 32 L 11 18 C 11 17.82 11.020312 17.650234 11.070312 17.490234 z M 38.929688 17.490234 C 38.979688 17.650234 39 17.82 39 18 L 39 32 C 39 32.18 38.979687 32.349766 38.929688 32.509766 L 31.400391 25 L 38.929688 17.490234 z M 20 26.410156 L 20.890625 27.310547 C 22.020625 28.440547 23.510234 29 24.990234 29 C 26.480234 29 27.959844 28.440547 29.089844 27.310547 L 29.990234 26.410156 L 37.509766 33.929688 C 37.349766 33.979688 37.18 34 37 34 L 13 34 C 12.82 34 12.650234 33.979687 12.490234 33.929688 L 20 26.410156 z" />
-            </svg>
+            <Email className={css.image} width={48} />
             <p>artyomakulov@gmail.com</p>
           </a>
         </div>
         <div className={css.contacts_item}>
           <a href="tel:+380668749735" className={css.contacts_text}>
-            <svg
-              className={css.image}
-              width="50px"
-              height="50px"
-              viewBox="0 0 100 100"
-            >
-              <path
-                d="M84.96,70.237c-0.167-1.032-0.814-1.914-1.783-2.438l-14.335-8.446l-0.118-0.066
-		c-0.579-0.297-1.249-0.45-1.937-0.45c-1.201,0-2.348,0.455-3.144,1.253l-4.231,4.233c-0.181,0.172-0.771,0.421-0.95,0.43
-		c-0.049-0.004-4.923-0.355-13.896-9.329c-8.957-8.955-9.337-13.844-9.34-13.844c0.005-0.25,0.251-0.838,0.426-1.02l3.608-3.607
-		c1.271-1.274,1.652-3.386,0.898-5.022L32.19,16.938c-0.579-1.192-1.704-1.928-2.952-1.928c-0.883,0-1.735,0.366-2.401,1.031
-		l-9.835,9.813c-0.943,0.938-1.755,2.578-1.932,3.898c-0.086,0.631-1.831,15.693,18.819,36.346
-		C51.42,83.627,65.09,84.989,68.865,84.989l0,0c0.812,0,1.285-0.058,1.376-0.071c1.316-0.176,2.954-0.986,3.891-1.925l9.827-9.826
-		C84.761,72.361,85.127,71.296,84.96,70.237z"
-              />
-            </svg>
+            <Phone width={48} className={css.image} />
             <p>+380668749735</p>
           </a>
         </div>
         <div className={css.contacts_item}>
-          <a href="https://telegram.me/artyomakulov" className={css.contacts_text}>
-            <svg
-              className={css.image}
-              viewBox="0 0 24 24"
-              width="48px"
-              height="48px"
-            >
-              <path d="M10.9,2.1c-4.6,0.5-8.3,4.2-8.8,8.7c-0.5,4.7,2.2,8.9,6.3,10.5C8.7,21.4,9,21.2,9,20.8v-1.6c0,0-0.4,0.1-0.9,0.1c-1.4,0-2-1.2-2.1-1.9c-0.1-0.4-0.3-0.7-0.6-1C5.1,16.3,5,16.3,5,16.2C5,16,5.3,16,5.4,16c0.6,0,1.1,0.7,1.3,1c0.5,0.8,1.1,1,1.4,1c0.4,0,0.7-0.1,0.9-0.2c0.1-0.7,0.4-1.4,1-1.8c-2.3-0.5-4-1.8-4-4c0-1.1,0.5-2.2,1.2-3C7.1,8.8,7,8.3,7,7.6c0-0.4,0-0.9,0.2-1.3C7.2,6.1,7.4,6,7.5,6c0,0,0.1,0,0.1,0C8.1,6.1,9.1,6.4,10,7.3C10.6,7.1,11.3,7,12,7s1.4,0.1,2,0.3c0.9-0.9,2-1.2,2.5-1.3c0,0,0.1,0,0.1,0c0.2,0,0.3,0.1,0.4,0.3C17,6.7,17,7.2,17,7.6c0,0.8-0.1,1.2-0.2,1.4c0.7,0.8,1.2,1.8,1.2,3c0,2.2-1.7,3.5-4,4c0.6,0.5,1,1.4,1,2.3v2.6c0,0.3,0.3,0.6,0.7,0.5c3.7-1.5,6.3-5.1,6.3-9.3C22,6.1,16.9,1.4,10.9,2.1z" />
-            </svg>
+          <a
+            href="https://github.com/artyomakulov"
+            className={css.contacts_text}
+          >
+            <Git className={css.image} width={48} />
             <p>artyomakulov</p>
           </a>
         </div>
         <div className={css.contacts_item}>
-          <a  href="https://github.com/artyomakulov" className={css.contacts_text}>
-            <svg
-              className={css.image}
-              viewBox="0 0 24 24"
-              width="48px"
-              height="48px"
-            >
-              <path d="M19.882,4.102C19.331,4.319,7.704,9.216,3.7,10.901c-0.234,0.098-0.697,0.248-0.697,0.736c0,0.392,0.301,0.586,0.648,0.724C4.527,12.71,7.75,14,7.75,14s1.151,3.445,1.39,4.2c0.239,0.756,0.431,0.774,0.431,0.774c0.053,0.023,0.105,0.032,0.153,0.032c0.154,0,0.272-0.09,0.272-0.09L13,16.375l3.524,3.26c0,0,0.35,0.365,0.737,0.365c0.471,0,0.812-0.47,0.872-0.775C18.216,18.798,20.95,5.07,20.95,5.07C21.198,3.963,20.463,3.873,19.882,4.102z" />
-              <path d="M16.8,8c-0.125,0-0.294,0.119-0.384,0.175c-1.288,0.803-7.746,4.478-9.517,5.484C7.398,13.859,7.75,14,7.75,14s1.151,3.445,1.39,4.2c0.239,0.756,0.431,0.774,0.431,0.774c0.053,0.023,0.105,0.032,0.153,0.032c0.039,0,0.066-0.014,0.099-0.023L11,14.375c0,0,5.363-5.428,5.686-5.744C16.946,8.378,17,8.289,17,8.201C17,8.084,16.939,8,16.8,8z" />
-            </svg>
+          <a
+            href="https://telegram.me/artyomakulov"
+            className={css.contacts_text}
+          >
+            <Telegram className={css.image} width={48} />
             <p>@artyomakulov</p>
+          </a>
+        </div>
+        <div className={css.contacts_item}>
+          <a
+            href="https://www.linkedin.com/in/artyomakulov/"
+            className={css.contacts_text}
+          >
+            <Linkedin className={css.image} width={48} />
+            <p>artyomakulov</p>
           </a>
         </div>
       </div>

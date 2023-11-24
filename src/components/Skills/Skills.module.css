@@ -39,19 +39,19 @@
   cursor: pointer;
 }
 
-.item_container.html:hover {
+.item_container.html:hover * {
   fill: #fc490b;
 }
-.item_container.css:hover {
+.item_container.css:hover * {
   fill: #2196f4;
 }
-.item_container.js:hover {
+.item_container.js:hover * {
   fill: #ffdf00;
 }
-.item_container.scss:hover {
+.item_container.scss:hover * {
   fill: #f25234;
 }
-.item_container.git:hover {
+.item_container.git:hover * {
   fill: #f25234;
 }
 
