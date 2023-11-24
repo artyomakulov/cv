@@ -40,18 +40,23 @@
 }
 
 .item_container.html:hover * {
+  transition: fill 0.3s ease;
   fill: #fc490b;
 }
 .item_container.css:hover * {
+  transition: fill 0.3s ease;
   fill: #2196f4;
 }
 .item_container.js:hover * {
+  transition: fill 0.3s ease;
   fill: #ffdf00;
 }
 .item_container.scss:hover * {
+  transition: fill 0.3s ease;
   fill: #f25234;
 }
 .item_container.git:hover * {
+  transition: fill 0.3s ease;
   fill: #f25234;
 }
 
