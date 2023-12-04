@@ -1,6 +1,6 @@
 // Works.js
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import css from "./Works.module.css";
 import Card from "./Card/Card";
 import { works } from "../../data/works";
@@ -28,8 +28,15 @@ const responsive = {
 };
 
 const Works = () => {
+  const [activeSlide, setActiveSlide] = useState(0);
+
+  const handleSlideChange = (currentSlide) => {
+    setActiveSlide(currentSlide);
+  };
+
   const work = works.map((item) => (
     <Card
+      key={item.id}
       title={item.title}
       stack={item.stack}
       role={item.role}
@@ -38,16 +45,27 @@ const Works = () => {
       image={item.image}
     />
   ));
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      handleSlideChange((activeSlide + 1) % works.length);
+    }, 1000);
 
+    return () => clearInterval(intervalId);
+  });
   return (
     <div className={css.container}>
       <h2 className={css.title}>Works</h2>
       <Carousel
         responsive={responsive}
+        // draggable={true}
         showDots={true}
         infinite={true}
         containerClass={css.carouselContainer}
-      >{work}
+        autoPlay={true}
+        autoPlaySpeed={3500}
+
+      >
+        {work}
       </Carousel>
     </div>
   );

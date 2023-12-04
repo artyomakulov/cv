@@ -18,44 +18,71 @@
   margin-top: 25px;
   margin-bottom: 15px;
   height: 30px;
+  font-family: "Arvo";
+
   font-size: 18px;
   font-weight: 700;
   color: var(--orange);
 }
 
 .card_tech {
+  padding: 0 10px;
+  font-family: "Arvo";
   font-size: 12px;
   color: var(--white);
   height: 50px;
   word-spacing: 5px;
+  text-align: center;
 }
 .card_role {
+  font-family: "Arvo";
   font-size: 10px;
   color: var(--white);
   height: 25px;
   margin-bottom: 10px;
 }
 .card_disc {
+  padding: 0 10px;
+  font-family: "Arvo";
+  text-align: justify;
   font-size: 12px;
   color: var(--white);
-  height: 145px;
+  height: 137px;
   word-spacing: 5px;
 }
 
 .img {
   margin: 5px;
 }
+.git {
+  display: flex;
+  fill: var(--white);
+  transition: fill 0.3s ease;
+  cursor: pointer;
+}
+.git:hover {
+  fill: var(--orange);
+}
 
+.card_links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
 .button {
   background-color: #32312e;
   color: var(--white);
+  font-family: "Arvo";
   border: 0;
   border-radius: 5px;
   padding: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .button:hover {
+  font-family: "Arvo";
   background-color: var(--grey);
   color: var(--orange);
+  font-weight: 700;
 }
