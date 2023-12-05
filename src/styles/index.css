@@ -1,9 +1,7 @@
 @import url("../ulits/colors.css");
 
 #root {
-  display: flex;
-  justify-content: center;
-  min-width: 1440px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   font-family: "Arvo", serif;
