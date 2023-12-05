@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import css from "./Skills.module.css";
 import { ReactComponent as Html } from "../../ulits/images/skills/html.svg";
 import { ReactComponent as Cssicon } from "../../ulits/images/skills/css.svg";
@@ -16,14 +16,19 @@ import { ReactComponent as Restapi } from "../../ulits/images/skills/rest-api.sv
 import { ReactComponent as Socket } from "../../ulits/images/skills/socketio.svg";
 import { ReactComponent as Webpack } from "../../ulits/images/skills/webpack.svg";
 import { ReactComponent as Typescript } from "../../ulits/images/skills/typescript.svg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Skills = () => {
+  useEffect(() => {
+    AOS.init({ duration:1000 });
+  }, []);
   return (
-    <div className={css.container}>
-      <h2 className={css.title}>My Skills</h2>
+    <div className={css.container} id="skills">
+      <h2 className={css.title} data-aos="zoom-out">My Skills</h2>
       <div className={css.gallery_container}>
         <div>
-          <ul className={css.gallery_grid}>
+          <ul className={css.gallery_grid} data-aos="zoom-in">
             <li
               className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_1}`}
             >
@@ -154,7 +159,7 @@ const Skills = () => {
             </li>
           </ul>
         </div>
-        <div className={css.text_part}>
+        <div className={css.text_part}  data-aos="fade-left">
           <div>
             <ul className={css.soft_skills}>
               <li>High Analytics</li>

@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import css from "./Contacts.module.css";
 import { ReactComponent as Email } from "../../ulits/images/contacts/email.svg";
 import { ReactComponent as Phone } from "../../ulits/images/contacts/phone.svg";
 import { ReactComponent as Telegram } from "../../ulits/images/contacts/telegram.svg";
 import { ReactComponent as Git } from "../../ulits/images/contacts/github.svg";
 import { ReactComponent as Linkedin } from "../../ulits/images/contacts/linkedin.svg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contacts = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
-    <div className={css.container}>
+    <div className={css.container} data-aos="zoom-in" id="contacts">
       <h2 className={css.title}>Contacts</h2>
       <div className={css.contacts_block}>
         <div className={css.contacts_item}>

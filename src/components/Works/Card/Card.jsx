@@ -1,10 +1,16 @@
 import css from "./Card.module.css";
 import { ReactComponent as Git } from "../../../ulits/images/contacts/github.svg";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"; 
+
 
 const Card = (props) => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); 
+  }, []);
   return (
-    <div className={css.card}>
+    <div className={css.card} data-aos="zoom-out">
       <div className={css.card_text_block}>
         <h5 className={css.card_title}>{props.title}</h5>
         <p className={css.card_tech}>{props.stack}</p>

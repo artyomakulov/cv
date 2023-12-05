@@ -4,6 +4,8 @@ import React, { useEffect, useState } from "react";
 import css from "./Works.module.css";
 import Card from "./Card/Card";
 import { works } from "../../data/works";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -45,6 +47,10 @@ const Works = () => {
       image={item.image}
     />
   ));
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   useEffect(() => {
     const intervalId = setInterval(() => {
       handleSlideChange((activeSlide + 1) % works.length);
@@ -53,8 +59,10 @@ const Works = () => {
     return () => clearInterval(intervalId);
   });
   return (
-    <div className={css.container}>
-      <h2 className={css.title}>Works</h2>
+    <div className={css.container} id="works">
+      <h2 className={css.title} data-aos="zoom-out">
+        Works
+      </h2>
       <Carousel
         responsive={responsive}
         // draggable={true}
@@ -63,7 +71,6 @@ const Works = () => {
         containerClass={css.carouselContainer}
         autoPlay={true}
         autoPlaySpeed={3500}
-
       >
         {work}
       </Carousel>

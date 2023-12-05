@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import css from "./About.module.css";
 import logo from "../../ulits/images/Logo.svg";
+import AOS from "aos";
+import "aos/dist/aos.css"; 
+
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); 
+  }, []);
   return (
-    <div className={css.container}>
+    <div className={css.container} data-aos="flip-down">
       <img className={css.logo} src={logo} alt="logo" width={130} />
       <p className={css.text}>
         I'm a switcher from another profession. I am seeking a full-time
