@@ -1,8 +1,8 @@
 @import url("../../ulits/colors.css");
 
 .container {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .title {
@@ -13,8 +13,8 @@
 }
 
 .item_container {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   background-color: var(--grey);
   border-radius: 20px;
   display: flex;
@@ -26,8 +26,8 @@
   cursor: pointer;
 }
 .item_container_big {
-  width: 410px;
-  height: 410px;
+  width: 210px;
+  height: 210px;
   background-color: var(--grey);
   border-radius: 20px;
   display: flex;
@@ -107,8 +107,8 @@
 
 .text {
   color: var(--white);
-  margin-top: 20px;
-  font-size: 14px;
+  margin-top: 10px;
+  font-size: 12px;
 }
 .gallery_container {
   display: flex;
@@ -116,7 +116,7 @@
 }
 .gallery_grid {
   display: grid;
-  grid-gap: 8px;
+  grid-gap: 10px;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(4, 1fr);
 }

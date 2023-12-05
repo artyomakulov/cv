@@ -1,8 +1,8 @@
 @import url("../../ulits/colors.css");
 
 .container {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  width: 1440px;
+  margin: 50px auto;
 }
 
 .title {
@@ -14,6 +14,6 @@
 
 .carouselContainer {
   padding-bottom: 50px;
-  max-width: 1400px;
+  min-width: 1400px;
   margin: 0 auto;
 }

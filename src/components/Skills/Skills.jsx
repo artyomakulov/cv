@@ -26,17 +26,17 @@ const Skills = () => {
           <li
             className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_1}`}
           >
-            <div className={`${css.item_container} ${css.bootstrap}`}>
-              <Bootstrap />
-              <p className={css.text}>Bootstrap</p>
+            <div className={`${css.item_container} ${css.webpack}`}>
+              <Webpack />
+              <p className={css.text}>Webpack</p>
             </div>
           </li>
           <li
             className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_2}`}
           >
-            <div className={`${css.item_container} ${css.express}`}>
-              <Exporess />
-              <p className={css.text}>Express.js</p>
+            <div className={`${css.item_container} ${css.socket}`}>
+              <Socket />
+              <p className={css.text}>Socket.io</p>
             </div>
           </li>
           <li
@@ -130,25 +130,25 @@ const Skills = () => {
           <li
             className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_14}`}
           >
-            <div className={`${css.item_container} ${css.socket}`}>
-              <Socket />
-              <p className={css.text}>Socket.io</p>
-            </div>
-          </li>
-          <li
-            className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_15}`}
-          >
             <div className={`${css.item_container} ${css.ts}`}>
               <Typescript />
               <p className={css.text}>TypeScript</p>
             </div>
           </li>
           <li
+            className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_15}`}
+          >
+            <div className={`${css.item_container} ${css.express}`}>
+              <Exporess />
+              <p className={css.text}>Express.js</p>
+            </div>
+          </li>
+          <li
             className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_16}`}
           >
-            <div className={`${css.item_container} ${css.webpack}`}>
-              <Webpack />
-              <p className={css.text}>Webpack</p>
+            <div className={`${css.item_container} ${css.bootstrap}`}>
+              <Bootstrap />
+              <p className={css.text}>Bootstrap</p>
             </div>
           </li>
         </ul>
