@@ -2,13 +2,14 @@ import css from "./Card.module.css";
 import { ReactComponent as Git } from "../../../ulits/images/contacts/github.svg";
 import React, { useEffect } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css"; 
-
+import "aos/dist/aos.css";
 
 const Card = (props) => {
   useEffect(() => {
-    AOS.init({ duration: 1000 }); 
+    AOS.init({ duration: 1000 });
   }, []);
+
+  console.log(props.git);
   return (
     <div className={css.card} data-aos="zoom-out">
       <div className={css.card_text_block}>
@@ -17,11 +18,11 @@ const Card = (props) => {
         <p className={css.card_role}>{props.role}</p>
         <p className={css.card_disc}>{props.discription}</p>
         <div className={css.card_links}>
-          <a href={props.link}>
+          <a href={props.link} target="_blank" rel="noopener noreferrer">
             <button className={css.button}>Open project</button>
           </a>
-          <a href={props.git} >
-            <Git width={36} className={css.git}/>
+          <a href={props.git} target="_blank" rel="noopener noreferrer">
+            <Git width={36} className={css.git} />
           </a>
         </div>
       </div>

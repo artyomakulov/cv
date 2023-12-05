@@ -17,13 +17,23 @@ const Contacts = () => {
       <h2 className={css.title}>Contacts</h2>
       <div className={css.contacts_block}>
         <div className={css.contacts_item}>
-          <a href="mailto:artyomakulov@gmail.com" className={css.contacts_text}>
+          <a
+            href="mailto:artyomakulov@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={css.contacts_text}
+          >
             <Email className={css.image} width={48} />
             <p>artyomakulov@gmail.com</p>
           </a>
         </div>
         <div className={css.contacts_item}>
-          <a href="tel:+380668749735" className={css.contacts_text}>
+          <a
+            href="tel:+380668749735"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={css.contacts_text}
+          >
             <Phone width={48} className={css.image} />
             <p>+380668749735</p>
           </a>
@@ -31,6 +41,8 @@ const Contacts = () => {
         <div className={css.contacts_item}>
           <a
             href="https://github.com/artyomakulov"
+            target="_blank"
+            rel="noopener noreferrer"
             className={css.contacts_text}
           >
             <Git className={css.image} width={48} />
@@ -40,6 +52,8 @@ const Contacts = () => {
         <div className={css.contacts_item}>
           <a
             href="https://telegram.me/artyomakulov"
+            target="_blank"
+            rel="noopener noreferrer"
             className={css.contacts_text}
           >
             <Telegram className={css.image} width={48} />
@@ -49,6 +63,8 @@ const Contacts = () => {
         <div className={css.contacts_item}>
           <a
             href="https://www.linkedin.com/in/artyomakulov/"
+            target="_blank"
+            rel="noopener noreferrer"
             className={css.contacts_text}
           >
             <Linkedin className={css.image} width={48} />

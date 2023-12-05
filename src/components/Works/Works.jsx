@@ -45,6 +45,7 @@ const Works = () => {
       discription={item.discription}
       link={item.link}
       image={item.image}
+      git={item.git}
     />
   ));
 

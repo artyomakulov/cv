@@ -21,16 +21,19 @@ import "aos/dist/aos.css";
 
 const Skills = () => {
   useEffect(() => {
-    AOS.init({ duration:1000 });
+    AOS.init({ duration: 1000 });
   }, []);
   return (
     <div className={css.container} id="skills">
-      <h2 className={css.title} data-aos="zoom-out">My Skills</h2>
+      <h2 className={css.title} data-aos="zoom-out">
+        My Skills
+      </h2>
       <div className={css.gallery_container}>
         <div>
           <ul className={css.gallery_grid} data-aos="zoom-in">
             <li
               className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_1}`}
+              data-aos="fade-right"
             >
               <div className={`${css.item_container} ${css.webpack}`}>
                 <Webpack />
@@ -47,6 +50,7 @@ const Skills = () => {
             </li>
             <li
               className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_3}`}
+              data-aos="fade-up-right"
             >
               <div className={`${css.item_container} ${css.mongoose}`}>
                 <Mongoose />
@@ -55,6 +59,7 @@ const Skills = () => {
             </li>
             <li
               className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_4}`}
+              data-aos="fade-up-left"
             >
               <div className={`${css.item_container} ${css.mui}`}>
                 <Mui />
@@ -63,6 +68,7 @@ const Skills = () => {
             </li>
             <li
               className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_5}`}
+              data-aos="fade-down-left"
             >
               <div className={`${css.item_container_big} ${css.node}`}>
                 <Nodejs />
@@ -79,6 +85,7 @@ const Skills = () => {
             </li>
             <li
               className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_7}`}
+              data-aos="fade-down-left"
             >
               <div className={`${css.item_container} ${css.redux}`}>
                 <Redux />
@@ -87,6 +94,7 @@ const Skills = () => {
             </li>
             <li
               className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_8}`}
+              data-aos="fade-up"
             >
               <div className={`${css.item_container} ${css.restapi}`}>
                 <Restapi />
@@ -95,6 +103,7 @@ const Skills = () => {
             </li>
             <li
               className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_9}`}
+              data-aos="fade-down"
             >
               <div className={`${css.item_container} ${css.html}`}>
                 <Html />
@@ -103,6 +112,7 @@ const Skills = () => {
             </li>
             <li
               className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_10}`}
+              data-aos="fade-up-right"
             >
               <div className={`${css.item_container_big} ${css.css}`}>
                 <Cssicon />
@@ -111,6 +121,7 @@ const Skills = () => {
             </li>
             <li
               className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_11}`}
+              data-aos="fade-down-right"
             >
               <div className={`${css.item_container_big} ${css.js}`}>
                 <Js />
@@ -119,6 +130,7 @@ const Skills = () => {
             </li>
             <li
               className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_12}`}
+              data-aos="fade-left"
             >
               <div className={`${css.item_container} ${css.git}`}>
                 <Git />
@@ -127,6 +139,7 @@ const Skills = () => {
             </li>
             <li
               className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_13}`}
+              data-aos="fade-down-right"
             >
               <div className={`${css.item_container} ${css.scss}`}>
                 <Scss />
@@ -151,6 +164,7 @@ const Skills = () => {
             </li>
             <li
               className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_16}`}
+              data-aos="fade-up-left"
             >
               <div className={`${css.item_container} ${css.bootstrap}`}>
                 <Bootstrap />
@@ -159,7 +173,7 @@ const Skills = () => {
             </li>
           </ul>
         </div>
-        <div className={css.text_part}  data-aos="fade-left">
+        <div className={css.text_part} data-aos="fade-left">
           <div>
             <ul className={css.soft_skills}>
               <li>High Analytics</li>
