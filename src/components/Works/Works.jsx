@@ -1,5 +1,3 @@
-// Works.js
-
 import React, { useEffect, useState } from "react";
 import css from "./Works.module.css";
 import Card from "./Card/Card";
