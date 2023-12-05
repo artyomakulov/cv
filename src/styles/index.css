@@ -1,9 +1,11 @@
 @import url("../ulits/colors.css");
 
 #root {
-  width: 100%;
+  min-width: 1440px;
   margin: 0 auto;
   text-align: center;
   font-family: "Arvo", serif;
+}
+body {
   background-color: var(--background);
 }
