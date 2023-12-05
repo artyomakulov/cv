@@ -221,3 +221,39 @@
   grid-row-start: 2;
   grid-row-end: 2;
 }
+
+.text_part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.soft_skills {
+  list-style-type: disc;
+  text-align: start;
+  color: var(--orange);
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: 45px;
+}
+
+.languages_block {
+  margin-bottom: 75px;
+}
+
+.languages_title {
+  text-align: start;
+  color: var(--white);
+  font-size: 18px;
+  margin-left: 45px;
+  margin-bottom: 25px;
+}
+
+.languages {
+  list-style-type: disc;
+  text-align: start;
+  color: var(--white);
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: 45px;
+}

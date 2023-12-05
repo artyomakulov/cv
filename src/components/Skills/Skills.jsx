@@ -22,136 +22,157 @@ const Skills = () => {
     <div className={css.container}>
       <h2 className={css.title}>My Skills</h2>
       <div className={css.gallery_container}>
-        <ul className={css.gallery_grid}>
-          <li
-            className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_1}`}
-          >
-            <div className={`${css.item_container} ${css.webpack}`}>
-              <Webpack />
-              <p className={css.text}>Webpack</p>
-            </div>
-          </li>
-          <li
-            className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_2}`}
-          >
-            <div className={`${css.item_container} ${css.socket}`}>
-              <Socket />
-              <p className={css.text}>Socket.io</p>
-            </div>
-          </li>
-          <li
-            className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_3}`}
-          >
-            <div className={`${css.item_container} ${css.mongoose}`}>
-              <Mongoose />
-              <p className={css.text}>Mongoose</p>
-            </div>
-          </li>
-          <li
-            className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_4}`}
-          >
-            <div className={`${css.item_container} ${css.mui}`}>
-              <Mui />
-              <p className={css.text}>Material UI</p>
-            </div>
-          </li>
-          <li
-            className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_5}`}
-          >
-            <div className={`${css.item_container_big} ${css.node}`}>
-              <Nodejs />
-              <p className={css.text}>Node.js</p>
-            </div>
-          </li>
-          <li
-            className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_6}`}
-          >
-            <div className={`${css.item_container_big} ${css.react}`}>
-              <Reacticon />
-              <p className={css.text}>React</p>
-            </div>
-          </li>
-          <li
-            className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_7}`}
-          >
-            <div className={`${css.item_container} ${css.redux}`}>
-              <Redux />
-              <p className={css.text}>Redux</p>
-            </div>
-          </li>
-          <li
-            className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_8}`}
-          >
-            <div className={`${css.item_container} ${css.restapi}`}>
-              <Restapi />
-              <p className={css.text}>Rest API</p>
-            </div>
-          </li>
-          <li
-            className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_9}`}
-          >
-            <div className={`${css.item_container} ${css.html}`}>
-              <Html />
-              <p className={css.text}>HTML5</p>
-            </div>
-          </li>
-          <li
-            className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_10}`}
-          >
-            <div className={`${css.item_container_big} ${css.css}`}>
-              <Cssicon />
-              <p className={css.text}>CSS3</p>
-            </div>
-          </li>
-          <li
-            className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_11}`}
-          >
-            <div className={`${css.item_container_big} ${css.js}`}>
-              <Js />
-              <p className={css.text}>JavaScript</p>
-            </div>
-          </li>
-          <li
-            className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_12}`}
-          >
-            <div className={`${css.item_container} ${css.git}`}>
-              <Git />
-              <p className={css.text}>Git</p>
-            </div>
-          </li>
-          <li
-            className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_13}`}
-          >
-            <div className={`${css.item_container} ${css.scss}`}>
-              <Scss />
-              <p className={css.text}>SCSS</p>
-            </div>
-          </li>
-          <li
-            className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_14}`}
-          >
-            <div className={`${css.item_container} ${css.ts}`}>
-              <Typescript />
-              <p className={css.text}>TypeScript</p>
-            </div>
-          </li>
-          <li
-            className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_15}`}
-          >
-            <div className={`${css.item_container} ${css.express}`}>
-              <Exporess />
-              <p className={css.text}>Express.js</p>
-            </div>
-          </li>
-          <li
-            className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_16}`}
-          >
-            <div className={`${css.item_container} ${css.bootstrap}`}>
-              <Bootstrap />
-              <p className={css.text}>Bootstrap</p>
-            </div>
-          </li>
-        </ul>
+        <div>
+          <ul className={css.gallery_grid}>
+            <li
+              className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_1}`}
+            >
+              <div className={`${css.item_container} ${css.webpack}`}>
+                <Webpack />
+                <p className={css.text}>Webpack</p>
+              </div>
+            </li>
+            <li
+              className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_2}`}
+            >
+              <div className={`${css.item_container} ${css.socket}`}>
+                <Socket />
+                <p className={css.text}>Socket.io</p>
+              </div>
+            </li>
+            <li
+              className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_3}`}
+            >
+              <div className={`${css.item_container} ${css.mongoose}`}>
+                <Mongoose />
+                <p className={css.text}>Mongoose</p>
+              </div>
+            </li>
+            <li
+              className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_4}`}
+            >
+              <div className={`${css.item_container} ${css.mui}`}>
+                <Mui />
+                <p className={css.text}>Material UI</p>
+              </div>
+            </li>
+            <li
+              className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_5}`}
+            >
+              <div className={`${css.item_container_big} ${css.node}`}>
+                <Nodejs />
+                <p className={css.text}>Node.js</p>
+              </div>
+            </li>
+            <li
+              className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_6}`}
+            >
+              <div className={`${css.item_container_big} ${css.react}`}>
+                <Reacticon />
+                <p className={css.text}>React</p>
+              </div>
+            </li>
+            <li
+              className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_7}`}
+            >
+              <div className={`${css.item_container} ${css.redux}`}>
+                <Redux />
+                <p className={css.text}>Redux</p>
+              </div>
+            </li>
+            <li
+              className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_8}`}
+            >
+              <div className={`${css.item_container} ${css.restapi}`}>
+                <Restapi />
+                <p className={css.text}>Rest API</p>
+              </div>
+            </li>
+            <li
+              className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_9}`}
+            >
+              <div className={`${css.item_container} ${css.html}`}>
+                <Html />
+                <p className={css.text}>HTML5</p>
+              </div>
+            </li>
+            <li
+              className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_10}`}
+            >
+              <div className={`${css.item_container_big} ${css.css}`}>
+                <Cssicon />
+                <p className={css.text}>CSS3</p>
+              </div>
+            </li>
+            <li
+              className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_11}`}
+            >
+              <div className={`${css.item_container_big} ${css.js}`}>
+                <Js />
+                <p className={css.text}>JavaScript</p>
+              </div>
+            </li>
+            <li
+              className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_12}`}
+            >
+              <div className={`${css.item_container} ${css.git}`}>
+                <Git />
+                <p className={css.text}>Git</p>
+              </div>
+            </li>
+            <li
+              className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_13}`}
+            >
+              <div className={`${css.item_container} ${css.scss}`}>
+                <Scss />
+                <p className={css.text}>SCSS</p>
+              </div>
+            </li>
+            <li
+              className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_14}`}
+            >
+              <div className={`${css.item_container} ${css.ts}`}>
+                <Typescript />
+                <p className={css.text}>TypeScript</p>
+              </div>
+            </li>
+            <li
+              className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_15}`}
+            >
+              <div className={`${css.item_container} ${css.express}`}>
+                <Exporess />
+                <p className={css.text}>Express.js</p>
+              </div>
+            </li>
+            <li
+              className={`${css.list_item} ${css.gallery_grid_item} ${css.gallery_grid_item_16}`}
+            >
+              <div className={`${css.item_container} ${css.bootstrap}`}>
+                <Bootstrap />
+                <p className={css.text}>Bootstrap</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div className={css.text_part}>
+          <div>
+            <ul className={css.soft_skills}>
+              <li>High Analytics</li>
+              <li>Stress tolerance</li>
+              <li>Non-confrontational</li>
+              <li>Quick adaptability to a new team</li>
+              <li>Attention to details</li>
+            </ul>
+          </div>
+          <div className={css.languages_block}>
+            <h4 className={css.languages_title}>Languages</h4>
+            <ul className={css.languages}>
+              <li>English - Intermediate</li>
+              <li>Ukrainian - Native</li>
+              <li>Russian - Fluent</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );
