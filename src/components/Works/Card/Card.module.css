@@ -4,7 +4,7 @@
   width: 380px;
   background: var(--grey);
   display: flex;
-  margin: auto 3rem;
+  margin: auto 20px;
   border-radius: 5px;
 }
 
