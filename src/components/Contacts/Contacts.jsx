@@ -5,6 +5,8 @@ import { ReactComponent as Phone } from "../../ulits/images/contacts/phone.svg";
 import { ReactComponent as Telegram } from "../../ulits/images/contacts/telegram.svg";
 import { ReactComponent as Git } from "../../ulits/images/contacts/github.svg";
 import { ReactComponent as Linkedin } from "../../ulits/images/contacts/linkedin.svg";
+import logo from "../../ulits/images/Logo.svg";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -38,6 +40,7 @@ const Contacts = () => {
             <p>+380668749735</p>
           </a>
         </div>
+
         <div className={css.contacts_item}>
           <a
             href="https://github.com/artyomakulov"
@@ -49,6 +52,7 @@ const Contacts = () => {
             <p>artyomakulov</p>
           </a>
         </div>
+
         <div className={css.contacts_item}>
           <a
             href="https://telegram.me/artyomakulov"
@@ -59,6 +63,9 @@ const Contacts = () => {
             <Telegram className={css.image} width={48} />
             <p>@artyomakulov</p>
           </a>
+        </div>
+        <div>
+          <img className={css.logo} src={logo} alt="logo" width={90} />
         </div>
         <div className={css.contacts_item}>
           <a

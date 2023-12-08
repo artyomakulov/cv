@@ -45,7 +45,7 @@ const Main = () => {
               className={css.photo}
               src={photo}
               alt="artem"
-              data-aos="fade-up-left"
+              data-aos="fade-right"
             />
           </div>
         </div>

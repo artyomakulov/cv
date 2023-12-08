@@ -1,7 +1,7 @@
 @import url("../../ulits/colors.css");
 
 .container {
-  width: 1240px;
+  width: 1280px;
   margin: 50px auto;
 }
 
@@ -16,4 +16,15 @@
   padding-bottom: 50px;
   max-width: 1240px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1279px) {
+  .container {
+    margin: 0 auto;
+    width: 768px;
+  }
+  .carouselContainer {
+    padding-bottom: 50px;
+    max-width: 760px;
+  }
 }

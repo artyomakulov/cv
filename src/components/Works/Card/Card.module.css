@@ -86,3 +86,10 @@
   color: var(--orange);
   font-weight: 700;
 }
+
+@media screen and (max-width: 1279px) {
+.card {
+  margin: auto 0px;
+
+}
+}

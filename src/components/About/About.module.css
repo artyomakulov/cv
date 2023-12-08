@@ -16,3 +16,11 @@
   color: var(--white);
   width: 910px;
 }
+
+
+
+@media screen and (max-width: 1279px) {
+  .logo {
+    margin-right: 20px;
+  }
+}

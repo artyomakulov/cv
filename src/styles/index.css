@@ -1,11 +1,24 @@
 @import url("../ulits/colors.css");
 
 #root {
-  width: 1240px;
+  width: 1280px;
   margin: 0 auto;
   text-align: center;
   font-family: "Arvo", serif;
 }
 body {
   background-color: var(--background);
+}
+
+
+@media screen and (max-width: 1279px) {
+  #root {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  #root {
+    width: 768px;
+  }
 }

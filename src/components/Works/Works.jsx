@@ -14,12 +14,12 @@ const responsive = {
     items: 3,
   },
   desktop: {
-    breakpoint: { max: 1280, min: 768 },
-    items: 3,
+    breakpoint: { max: 1280, min: 720 },
+    items: 2,
   },
   tablet: {
-    breakpoint: { max: 768, min: 320 },
-    items: 3,
+    breakpoint: { max: 720, min: 320 },
+    items: 2,
   },
   mobile: {
     breakpoint: { max: 320, min: 0 },
@@ -59,7 +59,9 @@ const Works = () => {
   });
   return (
     <div className={css.container} id="works">
-      <h2 className={css.title} data-aos="zoom-out">
+      <h2 className={css.title}
+       data-aos="zoom-out"
+       >
         Works
       </h2>
       <Carousel
@@ -68,7 +70,8 @@ const Works = () => {
         showDots={true}
         infinite={true}
         containerClass={css.carouselContainer}
-        // autoPlay={true}
+        autoPlay={true}
+        partialVisible={false}
         autoPlaySpeed={3500}
       >
         {work}

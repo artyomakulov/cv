@@ -11,7 +11,9 @@ const Card = (props) => {
 
   console.log(props.git);
   return (
-    <div className={css.card} data-aos="zoom-out">
+    <div className={css.card} 
+    data-aos="zoom-out"
+    >
       <div className={css.card_text_block}>
         <h5 className={css.card_title}>{props.title}</h5>
         <p className={css.card_tech}>{props.stack}</p>

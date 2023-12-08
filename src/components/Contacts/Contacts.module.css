@@ -41,3 +41,28 @@
   font-size: 18px;
   font-weight: 700;
 }
+.logo {
+  display: none;
+}
+
+@media screen and (max-width: 1279px) {
+  .container {
+    margin-top: 70px;
+    width: 100%;
+  }
+  .contacts_text {
+    font-size: 16px;
+  }
+  .contacts_item {
+    width: 240px;
+  }
+  .contacts_block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .logo {
+    display: inline;
+    margin-bottom: 20px;
+  }
+}

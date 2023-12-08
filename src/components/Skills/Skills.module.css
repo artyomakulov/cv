@@ -253,3 +253,19 @@
   line-height: 30px;
   margin-left: 45px;
 }
+
+
+
+@media screen and (max-width: 1279px) {
+.container {
+  margin: 100px 0;
+}
+.gallery_container {
+  flex-direction: column;
+}
+.text_part {
+  flex-direction: row;
+  margin-top: 30px;
+  justify-content: space-evenly;
+}
+}
