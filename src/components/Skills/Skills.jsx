@@ -31,10 +31,7 @@ const Skills = () => {
       <div className={css.gallery_container}>
         <div>
           <ul className={css.gallery_grid}>
-            <li
-              className={css.gallery_grid_item_1}
-              data-aos="fade-right"
-            >
+            <li className={css.gallery_grid_item_1} data-aos="fade-right">
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.webpack}`}
               >
@@ -50,10 +47,7 @@ const Skills = () => {
                 <p className={css.text}>Socket.io</p>
               </div>
             </li>
-            <li
-              className={css.gallery_grid_item_3}
-              data-aos="fade-up-right"
-            >
+            <li className={css.gallery_grid_item_3} data-aos="fade-up-right">
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.mongoose}`}
               >
@@ -61,10 +55,7 @@ const Skills = () => {
                 <p className={css.text}>Mongoose</p>
               </div>
             </li>
-            <li
-              className={css.gallery_grid_item_4}
-              data-aos="fade-up-right"
-            >
+            <li className={css.gallery_grid_item_4} data-aos="fade-up-right">
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.mui}`}
               >
@@ -72,10 +63,7 @@ const Skills = () => {
                 <p className={css.text}>Material UI</p>
               </div>
             </li>
-            <li
-              className={css.gallery_grid_item_5}
-              data-aos="fade-down-right"
-            >
+            <li className={css.gallery_grid_item_5} data-aos="fade-down-right">
               <div
                 className={`${css.item_container_big} ${css.gallery_grid_item} ${css.node}`}
               >
@@ -91,10 +79,7 @@ const Skills = () => {
                 <p className={css.text}>React</p>
               </div>
             </li>
-            <li
-              className={css.gallery_grid_item_7}
-              data-aos="fade-down-right"
-            >
+            <li className={css.gallery_grid_item_7} data-aos="fade-down-right">
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.redux}`}
               >
@@ -102,10 +87,7 @@ const Skills = () => {
                 <p className={css.text}>Redux</p>
               </div>
             </li>
-            <li
-              className={css.gallery_grid_item_8}
-              data-aos="fade-up"
-            >
+            <li className={css.gallery_grid_item_8} data-aos="fade-up">
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.restapi}`}
               >
@@ -113,10 +95,7 @@ const Skills = () => {
                 <p className={css.text}>Rest API</p>
               </div>
             </li>
-            <li
-              className={css.gallery_grid_item_9}
-              data-aos="fade-down"
-            >
+            <li className={css.gallery_grid_item_9} data-aos="fade-down">
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.html}`}
               >
@@ -124,10 +103,7 @@ const Skills = () => {
                 <p className={css.text}>HTML5</p>
               </div>
             </li>
-            <li
-              className={css.gallery_grid_item_10}
-              data-aos="fade-up-right"
-            >
+            <li className={css.gallery_grid_item_10} data-aos="fade-up-right">
               <div
                 className={`${css.item_container_big} ${css.gallery_grid_item} ${css.css}`}
               >
@@ -135,10 +111,7 @@ const Skills = () => {
                 <p className={css.text}>CSS3</p>
               </div>
             </li>
-            <li
-              className={css.gallery_grid_item_11}
-              data-aos="fade-down-right"
-            >
+            <li className={css.gallery_grid_item_11} data-aos="fade-down-right">
               <div
                 className={`${css.item_container_big} ${css.gallery_grid_item} ${css.js}`}
               >
@@ -146,10 +119,7 @@ const Skills = () => {
                 <p className={css.text}>JavaScript</p>
               </div>
             </li>
-            <li
-              className={css.gallery_grid_item_12}
-              data-aos="fade-right"
-            >
+            <li className={css.gallery_grid_item_12} data-aos="fade-right">
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.git}`}
               >
@@ -157,10 +127,7 @@ const Skills = () => {
                 <p className={css.text}>Git</p>
               </div>
             </li>
-            <li
-              className={css.gallery_grid_item_13}
-              data-aos="fade-down-right"
-            >
+            <li className={css.gallery_grid_item_13} data-aos="fade-down-right">
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.scss}`}
               >
@@ -184,10 +151,7 @@ const Skills = () => {
                 <p className={css.text}>Express.js</p>
               </div>
             </li>
-            <li
-              className={css.gallery_grid_item_16}
-              data-aos="fade-up"
-            >
+            <li className={css.gallery_grid_item_16} data-aos="fade-up">
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.bootstrap}`}
               >
