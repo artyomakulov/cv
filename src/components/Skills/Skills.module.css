@@ -1,6 +1,5 @@
 @import url("../../ulits/colors.css");
 
-
 .title {
   color: var(--orange);
   font-weight: 700;
@@ -254,18 +253,101 @@
   margin-left: 45px;
 }
 
-
-
 @media screen and (max-width: 1279px) {
-.container {
-  margin: 100px 0;
+  .container {
+    margin: 100px 0 0 0;
+  }
+  .gallery_container {
+    flex-direction: column;
+  }
+  .text_part {
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-evenly;
+  }
 }
-.gallery_container {
-  flex-direction: column;
-}
-.text_part {
-  flex-direction: row;
-  margin-top: 30px;
-  justify-content: space-evenly;
-}
+
+@media screen and (max-width: 720px) {
+  .gallery_grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+  }
+
+  .gallery_grid_item_2 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+  }
+
+  .gallery_grid_item_4 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 7;
+  }
+
+  .gallery_grid_item_5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 8;
+  }
+
+  .gallery_grid_item_6 {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+  .gallery_grid_item_7 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+  .gallery_grid_item_10 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+  }
+
+  .gallery_grid_item_12 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 7;
+  }
+  .gallery_grid_item_13 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 6;
+  }
+  .gallery_grid_item_14 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .gallery_grid_item_16 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+  .item_container {
+    width: 95px;
+    height: 95px;
+  }
+  .item_container_big {
+    width: 200px;
+    height: 200px;
+  }
+  .soft_skills {
+    margin-left: 25px;
+  }
 }

@@ -66,3 +66,38 @@
     margin-bottom: 20px;
   }
 }
+
+@media screen and (max-width: 720px) {
+  .container {
+    width: 420px;
+  }
+  .contacts_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  .contacts_block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .logo {
+    display: none;
+  }
+ .contacts_item_1 {
+  grid-column-start: 1;
+  grid-column-end:3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+ }
+ .contacts_item_5 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+ }
+}
+

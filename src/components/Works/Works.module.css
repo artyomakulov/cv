@@ -28,3 +28,14 @@
     max-width: 760px;
   }
 }
+
+@media screen and (max-width: 720px) {
+  .container {
+    margin: 0 auto;
+    width: 420px;
+  }
+  .carouselContainer {
+    padding-bottom: 50px;
+    max-width: 420px;
+  }
+}

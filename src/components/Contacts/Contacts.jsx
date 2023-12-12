@@ -18,7 +18,7 @@ const Contacts = () => {
     <div className={css.container} data-aos="zoom-in" id="contacts">
       <h2 className={css.title}>Contacts</h2>
       <div className={css.contacts_block}>
-        <div className={css.contacts_item}>
+        <div className={`${css.contacts_item} ${css.contacts_item_1}`}>
           <a
             href="mailto:artyomakulov@gmail.com"
             target="_blank"
@@ -29,7 +29,7 @@ const Contacts = () => {
             <p>artyomakulov@gmail.com</p>
           </a>
         </div>
-        <div className={css.contacts_item}>
+        <div className={`${css.contacts_item} ${css.contacts_item_2}`}>
           <a
             href="tel:+380668749735"
             target="_blank"
@@ -41,7 +41,7 @@ const Contacts = () => {
           </a>
         </div>
 
-        <div className={css.contacts_item}>
+        <div className={`${css.contacts_item} ${css.contacts_item_3}`}>
           <a
             href="https://github.com/artyomakulov"
             target="_blank"
@@ -53,7 +53,7 @@ const Contacts = () => {
           </a>
         </div>
 
-        <div className={css.contacts_item}>
+        <div className={`${css.contacts_item} ${css.contacts_item_4}`}>
           <a
             href="https://telegram.me/artyomakulov"
             target="_blank"
@@ -67,7 +67,7 @@ const Contacts = () => {
         <div>
           <img className={css.logo} src={logo} alt="logo" width={90} />
         </div>
-        <div className={css.contacts_item}>
+        <div className={`${css.contacts_item} ${css.contacts_item_5}`}>
           <a
             href="https://www.linkedin.com/in/artyomakulov/"
             target="_blank"

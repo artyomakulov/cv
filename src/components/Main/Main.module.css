@@ -87,3 +87,56 @@
     margin-bottom: 100px;
   }
 }
+
+@media screen and (max-width: 720px) {
+  .container {
+    height: 1040px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .text_block {
+    margin-right: 0;
+    margin-top: 100px;
+  }
+  .title_name {
+    font-size: 36px;
+  }
+  .title_pos {
+    font-size: 24px;
+  }
+  .title_text {
+    width: 410px;
+    font-size: 16px;
+  }
+
+  .background {
+    margin-top: 60px;
+    width: 400px;
+    height: 500px;
+  }
+  .photocontainer {
+    position: absolute;
+    width: 340px;
+  }
+  .photo {
+    display: block;
+    position: relative;
+    top: 95px;
+    right: 10px;
+    width: 130%;
+    clip-path: path(
+      "M75.6953 17.0294C164.138 -28.8236 203.578 28.1712 282.459 113.021C361.339 197.87 401.975 203.87 352.973 306.718C303.971 409.565 39.8398 379.568 15.5384 294.29C-8.76304 209.012 -12.7472 62.8824 75.6953 17.0294Z"
+    );
+  }
+
+  .spot1 {
+    position: absolute;
+    left: -30px;
+    top: 120px;
+  }
+  .spot2 {
+    position: absolute;
+    left: 0;
+    top: 80px;
+  }
+}

@@ -33,13 +33,13 @@ const Main = () => {
               className={css.spot2}
               src={spot2}
               alt="stop2"
-              data-aos="fade-down-left"
+              data-aos="fade-down-right"
             />
             <img
               className={css.spot1}
               src={spot1}
               alt="spot1"
-              data-aos="fade-left"
+              data-aos="fade-up"
             />
             <img
               className={css.photo}

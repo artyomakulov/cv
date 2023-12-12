@@ -32,7 +32,7 @@ const Skills = () => {
         <div>
           <ul className={css.gallery_grid}>
             <li
-              className={`${css.list_item} ${css.gallery_grid_item_1}`}
+              className={css.gallery_grid_item_1}
               data-aos="fade-right"
             >
               <div
@@ -42,7 +42,7 @@ const Skills = () => {
                 <p className={css.text}>Webpack</p>
               </div>
             </li>
-            <li className={`${css.list_item} ${css.gallery_grid_item_2}`}>
+            <li className={css.gallery_grid_item_2}>
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.socket}`}
               >
@@ -51,7 +51,7 @@ const Skills = () => {
               </div>
             </li>
             <li
-              className={`${css.list_item} ${css.gallery_grid_item_3}`}
+              className={css.gallery_grid_item_3}
               data-aos="fade-up-right"
             >
               <div
@@ -62,8 +62,8 @@ const Skills = () => {
               </div>
             </li>
             <li
-              className={`${css.list_item} ${css.gallery_grid_item_4}`}
-              data-aos="fade-up-left"
+              className={css.gallery_grid_item_4}
+              data-aos="fade-up-right"
             >
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.mui}`}
@@ -73,8 +73,8 @@ const Skills = () => {
               </div>
             </li>
             <li
-              className={`${css.list_item} ${css.gallery_grid_item_5}`}
-              data-aos="fade-down-left"
+              className={css.gallery_grid_item_5}
+              data-aos="fade-down-right"
             >
               <div
                 className={`${css.item_container_big} ${css.gallery_grid_item} ${css.node}`}
@@ -83,7 +83,7 @@ const Skills = () => {
                 <p className={css.text}>Node.js</p>
               </div>
             </li>
-            <li className={`${css.list_item} ${css.gallery_grid_item_6}`}>
+            <li className={css.gallery_grid_item_6}>
               <div
                 className={`${css.item_container_big} ${css.gallery_grid_item} ${css.react}`}
               >
@@ -92,8 +92,8 @@ const Skills = () => {
               </div>
             </li>
             <li
-              className={`${css.list_item} ${css.gallery_grid_item_7}`}
-              data-aos="fade-down-left"
+              className={css.gallery_grid_item_7}
+              data-aos="fade-down-right"
             >
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.redux}`}
@@ -103,7 +103,7 @@ const Skills = () => {
               </div>
             </li>
             <li
-              className={`${css.list_item} ${css.gallery_grid_item_8}`}
+              className={css.gallery_grid_item_8}
               data-aos="fade-up"
             >
               <div
@@ -114,7 +114,7 @@ const Skills = () => {
               </div>
             </li>
             <li
-              className={`${css.list_item} ${css.gallery_grid_item_9}`}
+              className={css.gallery_grid_item_9}
               data-aos="fade-down"
             >
               <div
@@ -125,7 +125,7 @@ const Skills = () => {
               </div>
             </li>
             <li
-              className={`${css.list_item} ${css.gallery_grid_item_10}`}
+              className={css.gallery_grid_item_10}
               data-aos="fade-up-right"
             >
               <div
@@ -136,7 +136,7 @@ const Skills = () => {
               </div>
             </li>
             <li
-              className={`${css.list_item} ${css.gallery_grid_item_11}`}
+              className={css.gallery_grid_item_11}
               data-aos="fade-down-right"
             >
               <div
@@ -147,8 +147,8 @@ const Skills = () => {
               </div>
             </li>
             <li
-              className={`${css.list_item} ${css.gallery_grid_item_12}`}
-              data-aos="fade-left"
+              className={css.gallery_grid_item_12}
+              data-aos="fade-right"
             >
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.git}`}
@@ -158,7 +158,7 @@ const Skills = () => {
               </div>
             </li>
             <li
-              className={`${css.list_item} ${css.gallery_grid_item_13}`}
+              className={css.gallery_grid_item_13}
               data-aos="fade-down-right"
             >
               <div
@@ -168,7 +168,7 @@ const Skills = () => {
                 <p className={css.text}>SCSS</p>
               </div>
             </li>
-            <li className={`${css.list_item} ${css.gallery_grid_item_14}`}>
+            <li className={css.gallery_grid_item_14}>
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.ts}`}
               >
@@ -176,7 +176,7 @@ const Skills = () => {
                 <p className={css.text}>TypeScript</p>
               </div>
             </li>
-            <li className={`${css.list_item} ${css.gallery_grid_item_15}`}>
+            <li className={css.gallery_grid_item_15}>
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.express}`}
               >
@@ -185,8 +185,8 @@ const Skills = () => {
               </div>
             </li>
             <li
-              className={`${css.list_item} ${css.gallery_grid_item_16}`}
-              data-aos="fade-up-left"
+              className={css.gallery_grid_item_16}
+              data-aos="fade-up"
             >
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.bootstrap}`}
@@ -197,7 +197,7 @@ const Skills = () => {
             </li>
           </ul>
         </div>
-        <div className={css.text_part} data-aos="fade-left">
+        <div className={css.text_part} data-aos="fade-right">
           <div>
             <ul className={css.soft_skills}>
               <li>High Analytics</li>
