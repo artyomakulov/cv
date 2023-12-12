@@ -9,7 +9,7 @@ import { ReactComponent as Bootstrap } from "../../ulits/images/skills/bootstrap
 import { ReactComponent as Exporess } from "../../ulits/images/skills/express.svg";
 import { ReactComponent as Mongoose } from "../../ulits/images/skills/mongoose.svg";
 import { ReactComponent as Mui } from "../../ulits/images/skills/mui.svg";
-import { ReactComponent as Nodejs } from "../../ulits/images/skills/node-js.svg";
+import { ReactComponent as Nodejs } from "../../ulits/images/skills/nodejs.svg";
 import { ReactComponent as Redux } from "../../ulits/images/skills/redux.svg";
 import { ReactComponent as Reacticon } from "../../ulits/images/skills/react.svg";
 import { ReactComponent as Restapi } from "../../ulits/images/skills/rest-api.svg";
