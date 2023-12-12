@@ -122,22 +122,16 @@
   .photo {
     display: block;
     position: relative;
-    top: 95px;
-    right: 10px;
-    width: 130%;
-    clip-path: path(
-      "M75.6953 17.0294C164.138 -28.8236 203.578 28.1712 282.459 113.021C361.339 197.87 401.975 203.87 352.973 306.718C303.971 409.565 39.8398 379.568 15.5384 294.29C-8.76304 209.012 -12.7472 62.8824 75.6953 17.0294Z"
-    );
+    top: 0;
+    right: 0;
+    width: 100%;
+    clip-path: circle(40.7% at 50% 50%);
   }
 
   .spot1 {
-    position: absolute;
-    left: -30px;
-    top: 120px;
+    display: none;
   }
   .spot2 {
-    position: absolute;
-    left: 0;
-    top: 80px;
+    display: none;
   }
 }

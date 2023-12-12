@@ -10,7 +10,6 @@ body {
   background-color: var(--background);
 }
 
-
 @media screen and (max-width: 1279px) {
   #root {
     width: 768px;
