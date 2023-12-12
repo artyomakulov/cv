@@ -111,8 +111,9 @@
 
   .background {
     margin-top: 60px;
-    width: 400px;
-    height: 500px;
+    width: 413px;
+    height: 430px;
+    background-image: url("../../ulits/images/backgroundmobile.svg");
   }
   .photocontainer {
     position: absolute;
