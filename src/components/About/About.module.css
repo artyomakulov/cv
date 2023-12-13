@@ -37,3 +37,14 @@
     max-width: 410px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .container {
+    height: 460px;
+    width: 360px;
+  }
+  .text {
+    font-size: 14px;
+    max-width: 360px;
+  }
+}

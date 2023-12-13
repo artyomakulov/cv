@@ -8,10 +8,11 @@ import "aos/dist/aos.css";
 
 const Main = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000});
+    AOS.init({ duration: 1000 });
   }, []);
   return (
     <div className={css.container} id="about">
+      <h2 style={{ display: "none" }}>About me</h2>
       <div className={css.text_block}>
         <h1 className={css.title_name} data-aos="fade-down">
           Artem Akulov

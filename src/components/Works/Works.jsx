@@ -55,9 +55,7 @@ const Works = () => {
   });
   return (
     <div className={css.container} id="works">
-      <h2 className={css.title}
-       data-aos="zoom-out"
-       >
+      <h2 className={css.title} data-aos="zoom-out">
         Works
       </h2>
       <Carousel

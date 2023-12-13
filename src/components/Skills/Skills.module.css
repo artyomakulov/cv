@@ -361,3 +361,40 @@
     margin-left: 25px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .gallery_grid {
+    display: grid;
+    grid-gap: 5px;
+  }
+  .item_container {
+    width: 85px;
+    height: 85px;
+  }
+  .item_container_big {
+    width: 175px;
+    height: 175px;
+  }
+  .text {
+    font-size: 10px;
+  }
+  .image {
+    width: 48px;
+    height: 48px;
+  }
+  .image_big {
+    width: 96px;
+    width: 96px;
+  }
+  .soft_skills {
+    margin-left: 10px;
+    font-size: 10px;
+  }
+  .languages_title {
+    font-size: 12x;
+  }
+  .languages {
+    font-size: 10px;
+    margin-left: 35px;
+  }
+}

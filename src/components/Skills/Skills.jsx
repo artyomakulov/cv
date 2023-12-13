@@ -21,7 +21,7 @@ import "aos/dist/aos.css";
 
 const Skills = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000});
+    AOS.init({ duration: 1000 });
   }, []);
   return (
     <div className={css.container} id="skills">
@@ -35,7 +35,7 @@ const Skills = () => {
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.webpack}`}
               >
-                <Webpack />
+                <Webpack className={css.image} />
                 <p className={css.text}>Webpack</p>
               </div>
             </li>
@@ -43,7 +43,7 @@ const Skills = () => {
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.socket}`}
               >
-                <Socket />
+                <Socket className={css.image} />
                 <p className={css.text}>Socket.io</p>
               </div>
             </li>
@@ -51,7 +51,7 @@ const Skills = () => {
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.mongoose}`}
               >
-                <Mongoose />
+                <Mongoose className={css.image} />
                 <p className={css.text}>Mongoose</p>
               </div>
             </li>
@@ -59,7 +59,7 @@ const Skills = () => {
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.mui}`}
               >
-                <Mui />
+                <Mui className={css.image} />
                 <p className={css.text}>Material UI</p>
               </div>
             </li>
@@ -67,7 +67,7 @@ const Skills = () => {
               <div
                 className={`${css.item_container_big} ${css.gallery_grid_item} ${css.node}`}
               >
-                <Nodejs />
+                <Nodejs className={css.image_big} />
                 <p className={css.text}>Node.js</p>
               </div>
             </li>
@@ -75,7 +75,7 @@ const Skills = () => {
               <div
                 className={`${css.item_container_big} ${css.gallery_grid_item} ${css.react}`}
               >
-                <Reacticon />
+                <Reacticon className={css.image_big} />
                 <p className={css.text}>React</p>
               </div>
             </li>
@@ -83,7 +83,7 @@ const Skills = () => {
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.redux}`}
               >
-                <Redux />
+                <Redux className={css.image} />
                 <p className={css.text}>Redux</p>
               </div>
             </li>
@@ -91,7 +91,7 @@ const Skills = () => {
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.restapi}`}
               >
-                <Restapi />
+                <Restapi className={css.image} />
                 <p className={css.text}>Rest API</p>
               </div>
             </li>
@@ -99,7 +99,7 @@ const Skills = () => {
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.html}`}
               >
-                <Html />
+                <Html className={css.image} />
                 <p className={css.text}>HTML5</p>
               </div>
             </li>
@@ -107,7 +107,7 @@ const Skills = () => {
               <div
                 className={`${css.item_container_big} ${css.gallery_grid_item} ${css.css}`}
               >
-                <Cssicon />
+                <Cssicon className={css.image_big} />
                 <p className={css.text}>CSS3</p>
               </div>
             </li>
@@ -115,7 +115,7 @@ const Skills = () => {
               <div
                 className={`${css.item_container_big} ${css.gallery_grid_item} ${css.js}`}
               >
-                <Js />
+                <Js className={css.image_big} />
                 <p className={css.text}>JavaScript</p>
               </div>
             </li>
@@ -123,7 +123,7 @@ const Skills = () => {
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.git}`}
               >
-                <Git />
+                <Git className={css.image} />
                 <p className={css.text}>Git</p>
               </div>
             </li>
@@ -131,7 +131,7 @@ const Skills = () => {
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.scss}`}
               >
-                <Scss />
+                <Scss className={css.image} />
                 <p className={css.text}>SCSS</p>
               </div>
             </li>
@@ -139,7 +139,7 @@ const Skills = () => {
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.ts}`}
               >
-                <Typescript />
+                <Typescript className={css.image} />
                 <p className={css.text}>TypeScript</p>
               </div>
             </li>
@@ -147,7 +147,7 @@ const Skills = () => {
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.express}`}
               >
-                <Exporess />
+                <Exporess className={css.image} />
                 <p className={css.text}>Express.js</p>
               </div>
             </li>
@@ -155,7 +155,7 @@ const Skills = () => {
               <div
                 className={`${css.item_container} ${css.gallery_grid_item} ${css.bootstrap}`}
               >
-                <Bootstrap />
+                <Bootstrap className={css.image} />
                 <p className={css.text}>Bootstrap</p>
               </div>
             </li>
