@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <header className={css.xz}>
+    <header>
       <div>
         <nav>
           <ul className={css.navigation}>

@@ -21,7 +21,7 @@ import "aos/dist/aos.css";
 
 const Skills = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 1000});
   }, []);
   return (
     <div className={css.container} id="skills">

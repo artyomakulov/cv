@@ -1,5 +1,7 @@
 @import url("../../ulits/colors.css");
-
+.container {
+  overflow: hidden;
+}
 .title {
   color: var(--orange);
   font-weight: 700;
