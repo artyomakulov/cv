@@ -21,6 +21,17 @@ export const works = [
   },
   {
     id: 3,
+    title: "Donate to UA army",
+    role: "Volunteer project",
+    discription:
+      "Mobile-first adaptive landing for fundraising for the needs of the Ukrainian army",
+    stack: "React HTML CSS",
+    image: require("../ulits/images/works/zbir-na-avto.jpg"),
+    link: "https://avto-for-victory.site/",
+    git: "https://github.com/baza-trainee/44-zbir",
+  },
+  {
+    id: 4,
     title: "Online Chat",
     role: "Individual project",
     discription: "Real-time app for communication with friends or colleagues ",
@@ -30,7 +41,7 @@ export const works = [
     git: "https://github.com/artyomakulov/mySuperChat",
   },
   {
-    id: 4,
+    id: 5,
     title: "Phonebook",
     role: "Individual project",
     discription:
@@ -41,7 +52,7 @@ export const works = [
     git: "https://github.com/artyomakulov/goit-react-hw-08-phonebook/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Filmoteka",
     role: "Team project. Role: Front-end developer",
     discription:
@@ -52,7 +63,7 @@ export const works = [
     git: "https://github.com/artyomakulov/js-project-10",
   },
   {
-    id: 6,
+    id: 7,
     title: "IceCream",
     role: "Team project. Role: Front-end developer",
     discription:
@@ -63,7 +74,7 @@ export const works = [
     git: "https://github.com/artyomakulov/js-project-10",
   },
   {
-    id: 7,
+    id: 8,
     title: "Ecosolution",
     role: "Individual project",
     discription:
