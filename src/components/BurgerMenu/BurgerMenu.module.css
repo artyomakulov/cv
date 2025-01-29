@@ -1,52 +1,9 @@
 @import url("../../ulits/colors.css");
-
-header {
-  /* display: flex;
-  justify-content: center; */
-  width: 100%;
-  overflow: hidden;
-}
-
-.navigation {
-  height: 80px;
-  background-color: var(--background);
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-.navigation_item {
-  color: var(--white);
-  margin: 0 40px;
-  transition: color 0.3s ease, scale 0.3s ease;
-}
-
-.navigation_item:hover {
-  color: var(--yellow);
-  cursor: pointer;
-  scale: 1.2;
-}
 .burger {
   display: none;
 }
 
 @media screen and (max-width: 720px) {
-  header {
-    height: 60px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: var(--background);
-  }
-  .navigation {
-    display: none;
-  }
   .burger {
     display: block;
     margin-left: 350px;
@@ -124,20 +81,6 @@ header {
 }
 
 @media screen and (max-width: 480px) {
-  header {
-    height: 60px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: var(--background);
-  }
-  .navigation {
-    display: none;
-  }
   .burger {
     display: block;
     margin-left: 300px;
