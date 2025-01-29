@@ -27,7 +27,7 @@ export const works = [
       "Mobile-first adaptive landing for fundraising for the needs of the Ukrainian army",
     stack: "React HTML CSS",
     image: require("../ulits/images/works/zbir-na-avto.jpg"),
-    link: "https://avto-for-victory.site/",
+    link: "https://44-zbir.vercel.app/",
     git: "https://github.com/baza-trainee/44-zbir",
   },
   {
