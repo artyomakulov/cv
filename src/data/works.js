@@ -3,7 +3,7 @@ export const works = [
     id: 1,
     title: "WebStore",
     type: "Individual project",
-    discription: "An example of an online store selling any type of goods",
+    description: "An example of an online store selling any type of goods",
     stack: "React Redux Axios Persist",
     image: require("../ulits/images/works/webstore.jpg"),
     link: "https://lighthearted-crepe-659483.netlify.app/",
@@ -13,7 +13,7 @@ export const works = [
     id: 2,
     title: "Your pet",
     type: "Team project. Role: Team leader",
-    discription: "Mobile-first adaptive website for searching and selling pets",
+    description: "Mobile-first adaptive website for searching and selling pets",
     stack: "React Redux React-router Axios",
     image: require("../ulits/images/works/yourpet.jpg"),
     link: "https://artyomakulov.github.io/yourPet/",
@@ -23,7 +23,7 @@ export const works = [
     id: 3,
     title: "Baza trainee",
     type: "Commercial team project",
-    discription:
+    description:
       "Mobile-first adaptive website for Baza-Trainee that provides IT newcomers with real project experience to strengthen their skills. It also includes an admin panel for efficient project management",
     stack: "NextJS Axios Zustand ",
     image: require("../ulits/images/works/baza.png"),
@@ -34,7 +34,7 @@ export const works = [
     id: 4,
     title: "Donate to UA army",
     type: "Volunteer team project",
-    discription:
+    description:
       "Mobile-first adaptive landing for fundraising for the needs of the Ukrainian army",
     stack: "React",
     image: require("../ulits/images/works/zbir-na-avto.jpg"),
@@ -45,7 +45,7 @@ export const works = [
     id: 5,
     title: "Online Chat",
     type: "Individual project",
-    discription: "Real-time app for communication with friends or colleagues ",
+    description: "Real-time app for communication with friends or colleagues ",
     stack: "React Socket.io Node.js Express.js",
     image: require("../ulits/images/works/onlinechat.jpg"),
     link: "https://roaring-lolly-941e2f.netlify.app/",
@@ -55,7 +55,7 @@ export const works = [
     id: 6,
     title: "Phonebook",
     type: "Individual project",
-    discription:
+    description:
       "Phone book app with the ability to add, delete, filter and store contacts",
     stack: "React Redux React-router Axios",
     image: require("../ulits/images/works/phonebook.jpg"),
@@ -66,7 +66,7 @@ export const works = [
     id: 7,
     title: "Filmoteka",
     type: "Team project",
-    discription:
+    description:
       "Mobile-first adaptive website for searching and previewing movies",
     stack: "JS HTML SASS Parcel",
     image: require("../ulits/images/works/filmoteka.jpg"),
@@ -77,7 +77,7 @@ export const works = [
     id: 8,
     title: "IceCream",
     type: "Team project",
-    discription:
+    description:
       "Mobile-first adaptive landing page of the company, with adaptive layout",
     stack: "JS HTML SASS Parcel BEM-methodology",
     image: require("../ulits/images/works/icecream.jpg"),
@@ -88,7 +88,7 @@ export const works = [
     id: 9,
     title: "Ecosolution",
     type: "Individual project",
-    discription:
+    description:
       "Mobile-first adaptive landing page of the company, with adaptive layout",
     stack: "React Framer-motion",
     image: require("../ulits/images/works/ecosolution.jpg"),
