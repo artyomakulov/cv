@@ -28,7 +28,7 @@ const Works = () => {
       key={item.id}
       title={item.title}
       stack={item.stack}
-      role={item.role}
+      type={item.type}
       discription={item.discription}
       link={item.link}
       image={item.image}
