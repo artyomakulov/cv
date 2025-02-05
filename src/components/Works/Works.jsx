@@ -29,7 +29,7 @@ const Works = () => {
       title={item.title}
       stack={item.stack}
       type={item.type}
-      discription={item.discription}
+      description={item.description}
       link={item.link}
       image={item.image}
       git={item.git}

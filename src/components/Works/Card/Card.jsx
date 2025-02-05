@@ -11,7 +11,7 @@ const Card = (props) => {
         <h5 className={css.card_title}>{props.title}</h5>
         <p className={css.card_tech}>{props.stack}</p>
         <p className={css.card_role}>{props.type}</p>
-        <p className={css.card_disc}>{props.discription}</p>
+        <p className={css.card_disc}>{props.description}</p>
         <div className={css.card_links}>
           <a href={props.link} target="_blank" rel="noopener noreferrer">
             <button className={css.button}>Open project</button>
